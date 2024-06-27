@@ -616,14 +616,14 @@ uglyURLs = false
     valineMeta = ["nick", "mail", "link"]
     valinePageSize = 10
     valineLang = "zh-cn"
-    valineVisitor = false
+    valineVisitor = true
     valineHighlight = true
     valineAvatarForce = false
     valineRecordIP = false
     valineServerURLs = ""
     valineEmojiCDN = ""
     valineEmojiMaps = {}
-    valineEnableQQ = false
+    valineEnableQQ = true
     valineRequiredFields = []
     # 说明：https://valine.js.org/
 
