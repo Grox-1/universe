@@ -607,9 +607,9 @@ uglyURLs = false
     disqusShortname = ""
 
     ## Valine
-    enableValine = false
-    valineAppId = ""
-    valineAppKey = ""
+    enableValine = true
+    valineAppId = "Pi0w6QzZy85vNlUUenHb9f1s-MdYXbMMI"
+    valineAppKey = "o5pb9KNEVWcHUtoSJr2kG5vE"
     valinePlaceholder = "Just go go"
     valinePath = ""
     valineAvatar = "mm"
@@ -628,7 +628,7 @@ uglyURLs = false
     # 说明：https://valine.js.org/
 
     ## Utterances
-    enableUtterances = true
+    enableUtterances = false
     utterancesRepo = "Grox-1/universe"
     utterancesIssueTerm = "pathname"
     utterancesTheme = "github-light"
