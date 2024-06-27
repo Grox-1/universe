@@ -628,8 +628,8 @@ uglyURLs = false
     # 说明：https://valine.js.org/
 
     ## Utterances
-    enableUtterances = false
-    utterancesRepo = ""
+    enableUtterances = true
+    utterancesRepo = "Grox-1/universe"
     utterancesIssueTerm = "pathname"
     utterancesTheme = "github-light"
     utterancesThemeDark = "photon-dark"
