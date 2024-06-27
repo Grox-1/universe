@@ -1,5 +1,6 @@
 {{ if or (and .IsHome .Site.Params.displayFooterInHome) (and (not .IsHome) (.Site.Params.displayFooter | default .Site.Params.enableFooter)) }}
     <footer id="footer" class="footer"> 
+        position:absolute;
 
             <div class="site-info">
               {{- if .Site.Params.displayCopyleftSymbol -}}
