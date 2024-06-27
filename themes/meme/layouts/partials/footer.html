@@ -1,17 +1,6 @@
 {{ if or (and .IsHome .Site.Params.displayFooterInHome) (and (not .IsHome) (.Site.Params.displayFooter | default .Site.Params.enableFooter)) }}
     <footer id="footer" class="footer"> 
 
-        <div class="footer-inner">
-            <div class="pinglun">
-            <script src="https://utteranc.es/client.js"
-        repo="Grox-1/universe"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-    </script> 
-    </div>
-
             <div class="site-info">
               {{- if .Site.Params.displayCopyleftSymbol -}}
                   <span class="copyleft-symbol">🄯</span>&nbsp;
